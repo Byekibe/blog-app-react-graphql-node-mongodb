@@ -1,0 +1,63 @@
+.custom-margin {
+    margin-top: 5em;
+}
+
+.custom-margin-top {
+    margin-top: 5rem;
+}
+
+.btn-hover {
+    background-color: rgb(107, 107, 230);
+    color: #fff;
+    border: none;
+    height: 30px;
+    width: 40px;
+    border-radius: 4px;
+    align-items: center;
+    transition: width .5s, background-color .7s, color .9s;
+}
+
+.btn-hover:hover {
+    width: 45px;
+    background-color: rgba(68, 68, 248, 0.5);
+    color: rgb(40, 40, 40);
+}
+
+.profile {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    color: rgba(15, 15, 15, 0.3);
+}
+
+.arrow-right {
+    font-size: 1.25em;
+}
+
+.footer {
+    height: auto;
+    background-color: rgba(161, 159, 159, 0.2);;
+    color: black;
+    padding: 2em;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: aqua;
+}
+
+@media (max-width: 450px) {
+    .action-buttons {
+        display: block;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .action-buttons a {
+        margin-bottom: 10px;
+    }
+
+
+}
