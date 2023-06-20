@@ -20,7 +20,6 @@ const Footer = () => {
                     </div>
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6 g-2">
                             <p><FaGreaterThan /> Accessibility</p>
-                            <p><FaGreaterThan /> Contact</p>
                             <p><FaGreaterThan /> Terms and conditions</p>
                             <p><FaGreaterThan /> Cookie center</p>
                             <p><FaGreaterThan /> Feedback</p>
